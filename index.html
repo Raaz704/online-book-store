@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        header{
+            border-bottom: 7px solid black;
+            height: 80px;
+        }
+        p{
+            position: relative;
+            bottom: 20px;
+            left: 3px;
+        }
+        #name a{
+            display: inline-block;
+            margin-left: 40px;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            position: relative;
+            left: 300px;
+            bottom: 80px;
+            /* border-bottom: 3px solid red; */
+        }
+        #name a:hover{
+            border-bottom: 3px solid red;
+            /* height: 40px; */
+
+
+        }
+        #search{
+            position: relative;
+            left: 1200px;
+            bottom: 110px;
+            
+        }
+        #search input{
+            height: 30px;
+            width: 600px;
+            text-align: center;
+            border-radius: 15px;
+            border: 3px solid;
+            font-size: 20px;
+        }
+       
+      
+       
+        #brand{
+            height: 700px;
+            width: 2250px;
+            position: relative;
+            top: 10px;
+            border-bottom: 3px solid ;
+        }
+        .card{
+            display: inline-block;
+        }
+        .card img{
+            display: inline-block;
+            height: 500px;
+            width: 400px;
+            position: relative;
+            top: 50px;
+            margin-left: 30px;
+            border: 3px solid;
+
+        }
+         h2{
+            position: relative;
+            top: 30px;
+            font-size: 30px;
+            text-align: center;
+            letter-spacing: 3px;
+        }
+        .card a{
+            text-align: center;
+            
+        }
+        .hlo{
+            position: relative;
+            left: 170px;
+            top: 10px;
+            font-size: 20px;
+            text-decoration: none;
+            color: black;
+            transition: all 0.3s ease-in;
+            height: 10px;
+            width: 90px;
+            text-transform: uppercase;
+        }
+        .hlo:hover{
+            background-color:chartreuse;
+            font-size: 25px;
+            text-transform: uppercase;
+         
+            
+        }
+        #login2{
+            position: relative;
+            left: 2000px;
+            bottom: 145px;
+            height: 30px;
+            width: 120px;
+            border: 3px solid;
+            text-align: center;
+            font-size: 25px;
+            transition: all 0.3s ease-in-out;
+            
+
+        }
+        #login2:hover{
+            height: 35px;
+            width: 150px;
+            background-color: chartreuse;
+        }
+        #login2 a{
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            
+        }
+        .search2{
+            height: 27px;
+            width: 33px;
+            /* border: 3px solid black; */
+            font-size: 30px;
+            position: relative;
+            top: 8px;
+            left: 55px;
+            text-align: center;
+            bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Lover
+          
+        </h1>
+        <p>World of book</p>
+        <div id="name">
+            <a href="#">Home</a>
+            <a href="about_us.html">About us</a>
+            <a href="contact.html">Contact</a>
+            <a href="#">service</a>
+
+        </div>
+        <div id="search">
+            <span class="material-symbols-outlined search2">
+                search
+                </span>
+            <input type="text" placeholder="search for books...">
+        </div>
+        <div id="login2">
+            <a href="Login.html" >Login</a>
+        </div>
+
+    </header>
+    <main>
+        <img id="brand" src="image3.jpg" alt="">
+        <div class="card">
+            <img src="c programming book.jpg" alt="C programming">
+            <h2>C Programming</h2>
+            <!-- <button class="login-button">Add Cart</button> -->
+            <a href="https://vardhaman.org/wp-content/uploads/2021/03/CP.pdf" class="hlo"> Click here</a>
+        </div>
+
+        <div class="card">
+            <img src="python book.jpg" alt="python book">
+            <h2>Python</h2>
+            <!-- <button class="login-button">Add Cart</button> -->
+            <a href="https://cfm.ehu.es/ricardo/docs/python/Learning_Python.pdf " class="hlo">click here</a>
+        </div>
+
+        <div class="card">
+            <img src="dbms book.webp" alt="dbms book ">
+            <h2>Database management system(DBMS)</h2>
+            <!-- <button class="login-button">Add Cart</button> -->
+            <a href="https://mrcet.com/downloads/digital_notes/ECE/III%20Year/DATABASE%20MANAGEMENT%20SYSTEMS.pdf" class="hlo">Click here</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.pexels.com/photos/7034389/pexels-photo-7034389.jpeg?auto=compress&cs=tinysrgb&w=600" class="hlo" alt="Card Image 5">
+            <h2>Computer Science</h2>
+            
+        </div>
+
+        <div class="card">
+            <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FProgramming-Language-PROGRAMMING-LANG-_p2-ebook%2Fdp%2FB009ZUZ9FW&psig=AOvVaw3V-u87df7SiFwJOia1MQs6&ust=1713194378910000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjq-cOAwoUDFQAAAAAdAAAAABAE" height="100px" width="100px" alt="Card Image 6">
+            <h2>Mathematics</h2>
+            <!-- <button class="login-button">Add Cart</button> -->
+        </div>
+    </div>
+    </main>
+</body>
+</html>
